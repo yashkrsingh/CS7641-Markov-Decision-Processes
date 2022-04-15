@@ -1,0 +1,7 @@
+matplotlib==3.5.1
+mdptoolbox-hiive==4.0.3.1
+pymdptoolbox==4.0b3
+pandas==1.4.2
+gym==0.23.1
+numpy==1.20.1
+pygame==2.0.1
