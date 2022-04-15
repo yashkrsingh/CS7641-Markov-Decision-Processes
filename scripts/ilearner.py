@@ -50,7 +50,6 @@ class IterationRunner(CommonRunner):
                 df_file = os.path.join(self.data_dir, f"{base_file}.csv")
                 policy_img_file = os.path.join(self.directory, f"{base_file}.policy.png")
                 sim_results_file = os.path.join(self.data_dir, f"{base_file}.sim.csv")
-                print(sim_results_file)
 
             if run_stats is None or values is None or policy is None or df is None or sim_results_df is None:
                 np.random.seed(seed)
