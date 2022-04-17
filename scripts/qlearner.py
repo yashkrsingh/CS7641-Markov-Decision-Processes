@@ -11,8 +11,8 @@ seed = 42
 
 
 class QRunner(CommonRunner):
-    def __init__(self, name, mdp_dict, base_directory, **kwargs):
-        super().__init__(learner="q", name=name, mdp_dict=mdp_dict, directory=base_directory, **kwargs)
+    def __init__(self, name, mdp_dict, directory, **kwargs):
+        super().__init__(learner="q", name=name, mdp_dict=mdp_dict, directory=directory, **kwargs)
 
         self.iter_callback = None
         if self.name == 'lake':
